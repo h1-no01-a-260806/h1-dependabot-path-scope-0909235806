@@ -1,0 +1,21 @@
+{
+  "name": "h1/dependabot-path-scope-fixture",
+  "description": "Controlled multi-feed Composer fixture",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://93e87972790e8d.lhr.life/victim"
+    },
+    {
+      "type": "composer",
+      "url": "https://93e87972790e8d.lhr.life/victim-attacker"
+    },
+    {
+      "packagist.org": false
+    }
+  ],
+  "require": {
+    "h1/private-package": "1.0.0"
+  },
+  "minimum_stability": "stable"
+}
