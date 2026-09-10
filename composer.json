@@ -4,11 +4,11 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://93e87972790e8d.lhr.life/victim"
+      "url": "https://a861cc88869aec.lhr.life/victim"
     },
     {
       "type": "composer",
-      "url": "https://93e87972790e8d.lhr.life/unrelated-attacker"
+      "url": "https://a861cc88869aec.lhr.life/unrelated-attacker"
     },
     {
       "packagist.org": false
