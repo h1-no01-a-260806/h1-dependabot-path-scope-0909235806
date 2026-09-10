@@ -2,7 +2,7 @@ version: 2
 registries:
   victim-composer-feed:
     type: composer-repository
-    url: https://93e87972790e8d.lhr.life/victim
+    url: https://a861cc88869aec.lhr.life/victim
     username: h1-registry-owner
     password: ${{secrets.H1_COMPOSER_FEED_PASSWORD}}
 updates:
